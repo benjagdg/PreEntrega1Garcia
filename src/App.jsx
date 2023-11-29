@@ -1,9 +1,11 @@
 // Boostrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Components
+// Menú Superior con CartWidget incluido
 import NavBar from './components/NavBar';
-import DestacadosComponent from './components/DestacadosComponent';
-import NewsComponent from './components/NewsComponent';
+// Lista de elementos de la tienda
+import ItemListContainer from './components/ItemListContainer';
+
 
 function App() {
   //CSS-in-JS
@@ -15,9 +17,7 @@ function App() {
   return (
    <div style={fullPage}>
     <NavBar />
-    <DestacadosComponent />
-    <NewsComponent />
-    
+    <ItemListContainer />
    </div>
   )
 }
