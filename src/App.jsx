@@ -17,7 +17,7 @@ function App() {
   return (
    <div style={fullPage}>
     <NavBar />
-    <ItemListContainer />
+    <ItemListContainer greeting="Bienvendo/a a Wabit Store"/>
    </div>
   )
 }

@@ -1,4 +1,3 @@
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
@@ -6,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 const FeaturedComponent = () => {
   return (
-    <Container className="pt-4">
+    <div className="pt-4">
       <h2>Destacados</h2>
       <Row>
         <Col>
@@ -58,7 +57,7 @@ const FeaturedComponent = () => {
           </Card>
         </Col>
       </Row> 
-    </Container>
+    </div>
   )
 }
 
