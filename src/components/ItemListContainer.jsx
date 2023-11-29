@@ -1,12 +1,12 @@
 // Lista de productos de la tienda para la sección "Destacados"
-import DestacadosComponent from './DestacadosComponent';
+import FeaturedComponent from './FeaturedComponent';
 // Lista de productos de la tienda para la sección "Recién Llegados"
 import NewsComponent from './NewsComponent';
 
 const ItemListContainer = () => {
   return (
     <>
-    <DestacadosComponent />
+    <FeaturedComponent />
     <NewsComponent />
     </>
   )

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const DestacadosComponent = () => {
+const FeaturedComponent = () => {
   return (
     <Container className="pt-4">
       <h2>Destacados</h2>
@@ -62,4 +62,4 @@ const DestacadosComponent = () => {
   )
 }
 
-export default DestacadosComponent
+export default FeaturedComponent
