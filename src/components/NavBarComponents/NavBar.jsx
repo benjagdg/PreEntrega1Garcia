@@ -1,13 +1,11 @@
-//Components
 import CartWidget from './CartWidget';
-// Bootstrap
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-// FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faPercent, faAnglesRight, faBoxOpen} from '@fortawesome/free-solid-svg-icons'
+import Logo from '../../assets/logo.png'
 
 const NavBar = () => {
   return (
@@ -16,7 +14,7 @@ const NavBar = () => {
         <Navbar.Brand href="/">
           <img
             alt="Wabit Logo"
-            src="./src/assets/logo.png"
+            src={Logo}
             width="50"
             height="30"
             className="d-inline-block align-top"

@@ -1,14 +1,11 @@
-// Boostrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-// Components
-// Menú Superior con CartWidget incluido
-import NavBar from './components/NavBar';
-// Lista de elementos de la tienda
+import NavBar from './components/NavBarComponents/NavBar';
 import ItemListContainer from './components/ItemListContainer';
+import MainRouter from './router/MainRouter';
+
 
 
 function App() {
-  //CSS-in-JS
   const fullPage = {
     width: "100vw",
     minHeight: "100vh"
