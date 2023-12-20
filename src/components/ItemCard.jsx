@@ -22,8 +22,8 @@ const ItemCard = ({productsData}) => {
   return (
     productsData.map((product) => {
       return (
-        <Col key={"prod_"+product.id}>
-          <Card style={{ width: '19rem' }} className="mb-2 text-center">
+        <Col key={"prod_"+product.id} >
+          <Card style={{ width: '19rem' }} className="mb-2 text-center bg-light">
             <Card.Img src={product.image} style={productImage}/>
             <Card.Body>
               <Card.Title style={titleOverflow}>{product.title}</Card.Title>
