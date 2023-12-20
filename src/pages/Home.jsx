@@ -1,6 +1,10 @@
+import ItemListContainer from '../components/ItemListContainer';
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <ItemListContainer greeting="Bienvendo/a a Wabit Store"/>
+    </>
   )
 }
 
